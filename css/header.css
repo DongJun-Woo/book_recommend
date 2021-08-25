@@ -1,0 +1,49 @@
+header{}
+.inner{
+	width: 1300px;
+	margin: auto;
+}
+.gnb{
+	text-align: right;
+	background-color: #28c7c2;
+	position: fixed;
+	width: 100%;
+}
+.gnb a{
+	border-left: 1px solid #000;
+	padding-left: 5px;
+}
+.gnb a:first-child{
+	border: none;
+}
+.logo{
+	padding-top: 20px;
+}
+.logo a{
+	text-align: center;
+}
+.logo a h2{
+	font-size: 48px;
+}
+.search{
+	font-size: 0;
+	padding: 10px;
+	text-align: center;
+}
+.search input{
+	width: 400px;
+	height: 30px;
+	font-size: 22px;
+	border: none;
+	border-bottom: 1px solid #000;
+	margin: 0;
+	padding: 0;
+}
+.search button{
+	width: 40px;
+	height: 40px;
+	transform: translate(-6px,8px);
+	border: none;
+	background: url(../images/search.png) no-repeat center right;
+	background-size: 30px;
+}

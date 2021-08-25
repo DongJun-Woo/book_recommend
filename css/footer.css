@@ -1,0 +1,22 @@
+footer{
+	background-color: #ccc;
+	height: 100px;
+}
+.footer-inner{
+	width: 1300px;
+	height: 100%;
+	margin: auto;
+	display: flex;
+}
+.copyright{
+	flex: 5;
+	text-align: center;
+	line-height: 30px;
+	border-right: 1px solid #000;
+}
+.sns{
+	flex: 1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}

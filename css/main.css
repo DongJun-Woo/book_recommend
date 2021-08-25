@@ -1,0 +1,33 @@
+.container{
+	height: 600px;
+}
+.books{
+	width: 1300px;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+.book{
+	border: 1px solid #f00;
+	float: left;
+	width: 400px;
+	height: 200px;
+}
+.book > a{
+	display: flex;
+}
+.book > a img{}
+.book-info{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 10px;
+}
+.book-title{}
+.book-author{}
+.book-summary{}
+.book-price{}
