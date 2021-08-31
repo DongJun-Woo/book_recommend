@@ -1,13 +1,14 @@
 header{}
-.inner{
-	width: 1300px;
-	margin: auto;
-}
 .gnb{
 	text-align: right;
 	background-color: #28c7c2;
 	position: fixed;
 	width: 100%;
+	display: flex;
+}
+.gnb-inner{
+	width: 1300px;
+	margin: auto;
 }
 .gnb a{
 	border-left: 1px solid #000;
@@ -38,6 +39,9 @@ header{}
 	border-bottom: 1px solid #000;
 	margin: 0;
 	padding: 0;
+}
+.search input:focus::placeholder{
+	visibility: hidden;
 }
 .search button{
 	width: 40px;

@@ -1,8 +1,9 @@
 footer{
-	background-color: #ccc;
+	background-color: #ddd;
 	height: 100px;
 }
 .footer-inner{
+	background-color: #ddd;
 	width: 1300px;
 	height: 100%;
 	margin: auto;
@@ -19,4 +20,7 @@ footer{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+.sns img{
+	width: 40px;
 }
