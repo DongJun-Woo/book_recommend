@@ -11,7 +11,7 @@
 	flex-wrap: wrap;
 }
 .book{
-	border: 1px solid #f00;
+	border: 1px solid #000;
 	float: left;
 	width: 400px;
 	height: 200px;
@@ -24,10 +24,19 @@
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 	margin-left: 10px;
 }
-.book-title{}
-.book-author{}
-.book-summary{}
-.book-price{}
+.book-title{
+	margin: 10px 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.author{
+	font-size: 14px;
+}
+.summary{
+	font-size: 12px;
+}
+.price{
+	font-size: 14px;
+}

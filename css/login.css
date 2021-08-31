@@ -61,7 +61,7 @@ input:not(:placeholder-shown) {
 }
 
 input[type=submit] {
-	background-color: #8aa1a1;
+	background-color: #4cc;
 	border: none;
 	color: white;
 	border-radius: 5px;
