@@ -1,0 +1,84 @@
+.search{
+	display: none;
+}
+
+.container{}
+.noticeManage{
+	width: 920px;
+	margin: auto;
+	padding: 50px 0;
+}
+.noticeManage h2{
+	color: #16a085;
+	font-weight: 900;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.manageTable{
+	text-align: center;
+}
+.manageTable > div{
+	padding: 0 5px;
+}
+.userTh{
+	display: flex;
+	background-color: #ccc;
+	border-radius: 15px 15px 0 0;
+}
+.userTh p{
+	margin: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	font-weight: 600;
+	flex: 1;
+}
+.userTh p:nth-of-type(2){
+	flex: 4;
+}
+.userInfoTable{
+	background-color: #eee;
+}
+.userInfo{
+	display: flex;
+	border-bottom: 1px solid #aaa;
+}
+.userInfo:nth-of-type(5n){
+	border-bottom: 1px solid #555;
+}
+.userInfo:last-of-type{
+	border-bottom: none;
+}
+.userInfo li{
+	flex: 1;
+	padding: 2px 0;
+	font-size: 14px;
+}
+.userInfo li:nth-of-type(2){
+	flex: 4;
+}
+.userInfo li:nth-last-of-type(6n){
+	font-weight: bold;
+}
+
+.insert-btn{
+	text-align: right;
+	padding: 0 15px 10px 0;
+}
+.insert-btn > a{
+	border: none;
+	color: #fff;
+	background-color: cadetblue;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-weight: 600;
+}
+
+.userInfo li > input{
+	border: none;
+	color: #fff;
+	background-color: cadetblue;
+	border-radius: 5px;
+	margin: 0 3px;
+	cursor: pointer;
+}

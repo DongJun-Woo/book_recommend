@@ -1,0 +1,122 @@
+.search{
+	display: none;
+}
+
+.container{}
+.userManage{
+	width: 920px;
+	margin: auto;
+	padding: 50px 0;
+}
+.userManage h2{
+	color: #16a085;
+	font-weight: 900;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.manageTable{
+	text-align: center;
+}
+.manageTable div{
+	padding: 0 5px;
+}
+.userTh{
+	display: flex;
+	background-color: #ccc;
+}
+.userTh p{
+	margin: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	font-weight: 600;
+	flex: 3;
+}
+.userTh p:nth-of-type(3),
+.userTh p:nth-of-type(4){
+	flex: 2;
+}
+.userInfoTable{
+	background-color: #eee;
+}
+.userInfo{
+	display: flex;
+	border-bottom: 1px solid #aaa;
+}
+.userInfo:nth-of-type(5n){
+	border-bottom: 1px solid #555;
+}
+.userInfo:last-of-type{
+	border-bottom: none;
+}
+.userInfo li{
+	flex: 3;
+	padding: 2px 0;
+	font-size: 14px;
+}
+.userInfo li:nth-of-type(3),
+.userInfo li:nth-of-type(4){
+	flex: 2;
+}
+.userId{
+	font-weight: bold;
+}
+
+.insert-btn{
+	text-align: right;
+	padding: 0 15px 5px 0;
+}
+.insert-btn > input{
+	border: none;
+	color: #fff;
+	background-color: cadetblue;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-weight: 600;
+}
+
+.insertUser{
+	flex-direction: column;
+	align-items: center;
+	display: none;
+}
+.insertUser > input{
+	width: 500px;
+	margin: 5px;
+	border-radius: 5px;
+	border
+}
+.genderInput{
+	width: 500px;
+}
+.genderInput label{
+	font-weight: 600;
+	padding-left: 2px;
+}
+.genderInput div{
+	display: flex;
+}
+
+.insertUser input:last-of-type{
+	border: none;
+	color: #fff;
+	background-color: cadetblue;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-weight: 600;
+}
+
+.userInfo li > input{
+	border: none;
+	color: #fff;
+	background-color: cadetblue;
+	border-radius: 5px;
+	margin: 0 3px;
+	cursor: pointer;
+}
+
+/*add CSS*/
+.flex{
+	display: flex;
+}

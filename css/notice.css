@@ -1,0 +1,84 @@
+.search{
+	display: none;
+}
+
+.container{}
+.notice{
+	width: 920px;
+	margin: auto;
+	padding: 50px 0;
+}
+.notice h2{
+	color: #16a085;
+	font-weight: 900;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.notice-header{}
+.notice-header > div{
+	display: flex;
+	border-bottom: 1px solid #d5d5db;
+}
+.notice-header > div:first-of-type{
+	border-top: 3px solid #005d4b;
+}
+.notice-header > div > div{
+	display: flex;
+}
+.notice-title{
+	flex: 4;
+}
+.notice-views{
+	flex: 1;
+}
+.notice-writer{
+	flex: 1;
+}
+.notice-date{
+	flex: 1;
+}
+.notice-attr{
+	background-color: #dcfff8;
+	color: #16a085;
+	width: 90px;
+	height: 21px;
+	padding: 8px 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+}
+.notice-val{
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	border-left: 1px solid #d5d5db;
+	font-size: 14px;
+}
+
+.notice-contents{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.notice-contents p{
+	width: 95%;
+	color: #555;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+.notice-btn{
+	display: flex;
+	justify-content: flex-end;
+	margin: 50px;
+}
+.notice-btn a{}
+.notice-btn a input{
+	border: none;
+	background-color: #009a7c;
+	color: #dcfff8;
+	padding: 5px 20px;
+	cursor: pointer;
+}
